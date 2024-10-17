@@ -1,5 +1,5 @@
 import Lottie from "lottie-react";
-import education from "../assets/lottie/education.json"; 
+import educationanimation from "../assets/lottie/education.json"; 
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -24,7 +24,7 @@ const Education = () => {
           data-aos="fade-right"
         >
         <Lottie
-            animationData={education}
+            animationData={educationanimation}
             loop={true}
             className="max-w-[500px] shadow-xl rounded-xl border border-[#00040f]"
           />
